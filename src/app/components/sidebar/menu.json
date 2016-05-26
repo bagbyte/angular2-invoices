@@ -1,0 +1,87 @@
+[
+  {
+    "area": "General",
+    "children": [
+      {
+        "name": "Dashboard",
+        "icon": "fa-tachometer",
+        "link": "Home"
+      },
+      {
+        "name": "Daily Report",
+        "icon": "fa-calendar-check-o",
+        "children": [
+          {
+            "name": "List",
+            "link": "ReportList"
+          },
+          {
+            "name": "Add",
+            "link": "ReportCreate"
+          }
+        ]
+      },
+      {
+        "name": "Suppliers",
+        "icon": "fa-truck",
+        "children": [
+          {
+            "name": "List",
+            "link": "SupplierList"
+          },
+          {
+            "name": "Add",
+            "link": "SupplierCreate"
+          }
+        ]
+      },
+      {
+        "name": "Products",
+        "icon": "fa-th",
+        "children": [
+          {
+            "name": "List",
+            "link": "ProductList"
+          },
+          {
+            "name": "Add",
+            "link": "ProductCreate"
+          }
+        ]
+      },
+      {
+        "name": "Invoices",
+        "icon": "fa-file-text",
+        "children": [
+          {
+            "name": "List",
+            "link": "InvoiceList"
+          },
+          {
+            "name": "Add",
+            "link": "InvoiceCreate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "area": "Admin area",
+    "children": [
+      {
+        "name": "Users",
+        "icon": "fa-users",
+        "children": [
+          {
+            "name": "List",
+            "link": "UserList"
+          },
+          {
+            "name": "Add",
+            "link": "UserCreate"
+          }
+        ]
+      }
+    ]
+  }
+]
